@@ -8,6 +8,15 @@ body {
   padding-right: 20px;
 }
 
+.emblem {
+  height: 70px;
+  width: 70px;
+  animation: radian;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
 .header {
   margin-top: 42px;
   height: 794px;
@@ -34,10 +43,13 @@ body {
 
 .header .logo__wrapper {
   margin-bottom: 81px;
+  display: flex;
 }
 
 .header .slogan {
   margin-top: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
@@ -87,4 +99,34 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.quote__img, .quote__video {
+  height: auto;
+  width: auto;
+  margin-bottom: 43px;
+  border: 2px #FF7639 solid;
+
+}
+
+.quote__img img:hover {
+  transform: scale(110%);
+}
+
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@keyframes radian {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(-360deg);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
