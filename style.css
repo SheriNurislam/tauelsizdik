@@ -8,6 +8,11 @@ body {
   padding-right: 20px;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+
 .emblem {
   height: 70px;
   width: 70px;
@@ -121,6 +126,8 @@ img, video {
 .quote__author {
   font-weight: 700;
 }
+
+
 
 
 @keyframes radian {
