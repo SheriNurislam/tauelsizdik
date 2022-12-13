@@ -118,6 +118,10 @@ img, video {
   height: auto;
 }
 
+.quote__author {
+  font-weight: 700;
+}
+
 
 @keyframes radian {
   0% {
